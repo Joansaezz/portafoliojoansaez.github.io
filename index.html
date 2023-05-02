@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    
 
 </head>
 
@@ -16,7 +17,7 @@
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary bg-gradiente" id="menu">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img id="logo" src="images/logo.png" alt="" width="100" height="94" class="rounded-circle">
+                    <img id="logo" src="images/logo.png" alt="logo" width="100" height="94" class="rounded-circle">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,33 +135,34 @@
         </div>
     </div>
     <br><br><br><br>
-    <div class="container-fluid fondo" id="aptitudes">
+    <div class="container-fluid " >
         <div class="row">
-            <div class="col-12 col-sm-12 col-lg-6 ms-5">
-                <h1 class="text-center  mt-5">Mis aptitudes</h1>
-                <p class="mt-3 text-justify">Bienvenido/a a mi página web personal. Soy un estudiante apasionado
-                    por el mundo de la tecnología y especialmente interesado en el desarrollo de aplicaciones
-                    web.
-                    Actualmente, estoy cursando un grado superior en esta área y me encanta aprender cada día
-                    más sobre
-                    cómo crear soluciones digitales innovadoras y eficientes.
+            <div class="col-12 col-sm-12 col-lg-6 ms-5 ">
+                <h1 class="text-center   mt-5">Mis aptitudes</h1>
+                <p class="mt-3 text-justify">Considero que tengo aptitudes notables y diversas, lo que me permite destacar en distintos ámbitos y desempeñarme de manera excelente en cualquier tarea que se me presente. Una de mis habilidades más sobresalientes es mi capacidad analítica y de resolución de problemas. Siempre me muestro dispuesto a enfrentar desafíos y a encontrar soluciones creativas e innovadoras para cualquier situación.
+                    Además, cuento con una gran capacidad de liderazgo, lo que me permite dirigir equipos de manera efectiva y motivar a sus miembros para alcanzar los objetivos en conjunto. También soy una persona muy organizada y detallista, lo que me permite planificar y llevar a cabo proyectos de manera efectiva.
+                    En resumen, considero que mis aptitudes me permiten ser una persona eficiente, eficaz y capaz de enfrentar cualquier desafío que se me presente."
                 </p>
                 <center><button id="boton" type="button" class="btn btn-primary">Más información</button></center>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 mb-5 hidden-sm-down d-none d-md-block">
                 <img src="images/Union.png" alt="" width="100%">
             </div>
             <div class="col-lg-3">
-                <p class="text-white text-center h3">95/100 <br> Comunicación</p>
+                <center><img src="images/comunicacion.png" width="20%" alt=""></center>
+                <p class="text-black text-center h2">95/100 <br> Comunicación</p>
             </div>
             <div class="col-lg-3">
-                <p class="text-white text-center h3">90/100 <br> Trabajo en equipo</p>
+                <center><img src="images/trabajo.png" width="20%" alt=""></center>
+                <p class="text-black text-center h2">90/100 <br> Trabajo en equipo</p>
             </div>
             <div class="col-lg-3">
-                <p class="text-white text-center h3">80/100 <br> Creatividad</p>
+                <center><img src="images/creatividad.jpg" width="20%" alt=""></center>
+                <p class="text-black text-center h2">80/100 <br> Creatividad</p>
             </div>
             <div class="col-lg-3">
-                <p class="text-white text-center h3">85/100 <br> Liderazgo</p>
+                <center><img src="images/liderazgo.jpg  " width="20%" alt=""></center>
+                <p class="text-black text-center h2">85/100 <br> Liderazgo</p>
             </div>
         </div>
     </div>
@@ -185,12 +187,13 @@
             <div class="form">
                 <br><br><br>
                 <form method="post">
+                    <label style="display: none;" for=""></label>
                     <input type="text" id="name" name="name" placeholder="Nombre:" required>
-
+                    <label style="display: none;" for=""></label>
                     <input type="text" id="lastname" name="lastname" placeholder="Apellido:" required><br><br>
-
+                    <label style="display: none;" for=""></label>
                     <input type="email" id="email" name="email" placeholder="Correo electrónico:" required><br><br>
-
+                    <label style="display: none;" for=""></label>
                     <textarea id="message" name="message" placeholder="Mensaje:" required></textarea><br><br>
 
                     <center><input type="submit" value="Enviar"></center>
